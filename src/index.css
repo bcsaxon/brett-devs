@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  @font-face {
+    font-family: "ttnorms-reg";
+    font-weight: 900;
+    src: url("fonts/TTNorms-Regular.otf") format("opentype");
+  }
+  @font-face {
+    font-family: "ttnormsbold";
+    font-weight: 500;
+    src: url("fonts/TTNorms-Bold.otf") format("opentype");
+  }
+}
+
+/* format('opentype'); */
+
 /* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
