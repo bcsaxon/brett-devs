@@ -11,9 +11,9 @@ function App() {
         <div className="w-1/3 p-10 text-center border-2 border-gray-400 shadow-lg rounded-3xl h-3/4">
           <h1>
             Hey There! You're probably looking for my portfolio and I'm probably
-            working on a freelance project or side gig or maybe I'm outside,
-            catching a concert, or checking the latest bar that opened in the
-            neighborhood...
+            working on a freelance project or side gig or I could be outside, or
+            catching a concert, or making some music, or checking the latest bar
+            that opened in the neighborhood...
           </h1>
           <br />
           <p>
