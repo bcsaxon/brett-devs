@@ -1,27 +1,28 @@
 import "./App.css";
-// import Header from "../src/components/Header";
+import { Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./pages/home";
+import Tech from "./pages/tech";
+import CoverLetter from "./pages/coverLetter";
+import Contact from "./pages/contact";
 function App() {
   return (
-    <div className="font-ttnorms">
-      {/* <Header /> */}
-      <div
-        id="site-wrapper"
-        className="flex flex-wrap items-center justify-center w-screen h-screen site-wrapper"
-      >
-        <div className="w-1/3 p-10 text-center border-2 border-gray-400 shadow-lg rounded-3xl h-3/4">
-          <h1>
-            Hey There! You're probably looking for my portfolio and I'm probably
-            working on a freelance project or side gig or I could be outside, or
-            catching a concert, or making some music, or checking the latest bar
-            that opened in the neighborhood...
-          </h1>
-          <br />
-          <p>
-            This site made with React, Tailwind, and deployed with Netlify.{" "}
-          </p>
-        </div>
+    <>
+      <div className="font-ttnorms">
+        <Navbar />
+        <Routes>
+          {/* <Route path="*" element={<NotFound />} /> */}
+          <Route path="/" element={<Home />} />
+          <Route path="/tech" element={<Tech />} />
+          {/* <Route path="/cover-letter" element={<CoverLetter />} /> */}
+          <Route path="/contact" element={<Contact />} />
+          {/* <Route path=":routeId" element={<RouteDirection />}> */}
+          {/* <Route path=":directionId" element={<RouteDetails />} /> */}
+
+          {/* </Route> */}
+        </Routes>
       </div>
-    </div>
+    </>
   );
 }
 
