@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/home";
 import Tech from "./pages/tech";
-import CoverLetter from "./pages/coverLetter";
+// import CoverLetter from "./pages/coverLetter";
 import Contact from "./pages/contact";
 function App() {
   return (
