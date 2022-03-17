@@ -10,12 +10,10 @@ function Home() {
             Hey There! You're probably looking for my portfolio. I appreciate
             you stopping by, but I'm probably working on a freelance project or
             a side gig or I could be outside getting some sun, catching a
-            concert, making some music, or checking the latest bar that opened
-            in the neighborhood... you get the idea... 
+            concert, making some music, or checking out the latest bar that
+            opened in the neighborhood... you get the idea...
           </h1>
-          <p>
-            This site made with React, Tailwind, and deployed on Netlify.{" "}
-          </p>
+          <p>This site made with React, Tailwind, and deployed on Netlify. </p>
         </div>
       </div>
     </>
