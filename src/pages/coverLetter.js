@@ -15,7 +15,7 @@ function CoverLetter() {
           part of my job as a developer is to automate all those mind-numbing,
           exhausting, time consuming, antiquated tasks.
         </p>
-        <p className="mb-10 text-xl">this is one of those tasks.</p>
+        <p className="mb-10 text-xl">this is one of those tasks.😉</p>
         <form className="mb-10 space-evenly">
           {/* <label className="ml-10">
             Favorite Color
@@ -47,7 +47,7 @@ function CoverLetter() {
         <br />
         <h6 className="mb-2 text-left">
           Dear{" "}
-          <span className={"text-xl font-bold text-`${favColor}`-600"}>
+          <span className={"text-xl font-bold text-green-600"}>
             {firstName}
           </span>
           ,
@@ -68,7 +68,8 @@ function CoverLetter() {
           </span>
           . Please find attached my resume. Feel free to contact me directly
           should you require anything further. Thank you for your time and
-          consideration. I look forward to hearing from you. Sincerely, Brett
+          consideration. I look forward to hearing from you.
+          <br /> Sincerely, Brett
         </p>
       </div>
     </div>
