@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        ttnorms: "'ttnorms-reg', serif",
-        ttnormsbold: "'ttnorms-reg', serif",
+        roboto: "'roboto-reg', serif",
+        robotobold: "'roboto-bold', serif",
       },
     },
   },
