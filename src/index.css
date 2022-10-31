@@ -5,12 +5,12 @@
 @layer base {
   @font-face {
     font-family: "roboto-reg";
-    font-weight: 500;
+    font-weight: 400;
     src: url("fonts/roboto/Roboto-Black.ttf") format("opentype");
   }
   @font-face {
     font-family: "roboto-bold";
-    font-weight: 900;
+    font-weight: 700;
     src: url("fonts/roboto/Roboto-Bold.ttf") format("opentype");
   }
 
