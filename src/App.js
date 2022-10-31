@@ -7,7 +7,7 @@ import CoverLetter from "./pages/coverLetter";
 import Contact from "./pages/contact";
 function App() {
   return (
-    <div className="font-ttnorms">
+    <div className="font-roboto">
       <Navbar />
       <Routes>
         {/* <Route path="*" element={<NotFound />} /> */}
